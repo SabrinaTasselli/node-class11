@@ -1,0 +1,23 @@
+{
+  "name": "node-class11",
+  "version": "0.0.1",
+  "description": "class 11",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaTasselli/node-class11.git"
+  },
+  "author": "Sabrina Tasselli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaTasselli/node-class11/issues"
+  },
+  "homepage": "https://github.com/SabrinaTasselli/node-class11#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
