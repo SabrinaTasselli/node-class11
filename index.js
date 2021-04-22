@@ -20,7 +20,8 @@ function handleRegister(req, res){
 
 function handleLoging(req, res){
     let userPassword = req.body.password;
-    if(user != null && user.password == userPassword){
+    let userEmail = req.body.email;
+    if(user != null && user.password == userPassword && user.email == userEmail){
         res.send("Success!");
     }else{
         res.send("User not found");
