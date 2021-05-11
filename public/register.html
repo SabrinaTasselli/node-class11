@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>mucho de vos Register Page</title>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <img id = logo src="./img/logo nuevo.png" alt="mucho de vos logo">
+            <h1>Welcome to mucho de vos!</h1>
+            <h2>Sign up for a free account</h2>
+        </header>
+        <form class = "form" novalidate>
+            <label  id = "fullnamelabel" class = "container-form" for = "fullnameinput">Full Name</label>
+            <input type = "text" id = "fullnameinput" class= "input" required>
+            <p class = "messagevalidation" id = "fullnamevalidation"></p>
+            <label id = "maillabel" class = "container-form" for = "mailinput">e-mail</label>
+            <input type = "email" id= "mailinput" class= "input" required>
+            <p class = "messagevalidation" id = "emailvalidation"></p>
+            <label id = "passwordlabel" class = "container-form" for = "passwordinput" class = "conteiner-form">Password</label>
+            <input type = "password" id = "passwordinput" class= "input" required>
+            <p class = "messagevalidation" id = "passwordvalidation"></p>
+            <div class = "container-form">
+                <label class = "checkboxstyle" for = "passwordcheckbox">Show password
+                    <input type = "checkbox" id = "passwordcheckbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <label id = "repeatpasswordlabel" class = "container-form" for = "repeatpasswordinput" class = "conteiner-form">Repeat Password</label>
+            <input type = "password" id = "repeatpasswordinput" class= "data" required>
+            <p class = "messagevalidation" id = "repeatpasswordvalidation"></p>
+            <div class = "container-button">
+                <input id = "submit" type = "submit" value = "Submit" class = "button">
+                <input id= "reset" type = "reset" value = "reset" class = "button">
+                <a href="./login.html">login</a>
+            </div>
+        </form>
+        <div id = "validform"> 
+            <ul id = "items"></ul>
+        </div>
+        <div id = "dataform">
+            <div id = "data"></div>
+        </div>
+        <script src= "./JS/register.js"></script>
+        <script src="./JS/registerInputValidation.js"></script>
+    </div>
+   
+</body>
+</html>

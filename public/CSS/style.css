@@ -1,0 +1,102 @@
+.container {
+    background-color: #f5e3e2;
+    padding: 16px;
+}
+body {
+    margin: 24px;
+    padding: 16px;
+    width: 500px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    width: 200px;
+}
+h1 {
+    font-size: medium;
+    font-weight: lighter;
+    padding: 16px 16px 4px 16px;
+}
+h2 {
+    font-size:smaller;
+    padding: 16px;
+    font-weight: lighter;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: small;
+}
+.container-form, #passwordcheckbox {
+    padding: 8px 0px;
+}
+label {
+    font-size: small;
+}
+.container-button {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    flex-grow: 0.2;
+    margin: 16px;
+    padding: 8px;
+    border: 1px black solid;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button:hover {
+    background-color: #f5e3e2;
+}
+a {
+    flex-grow: 0.2;
+    margin: 16px;
+    padding: 8px;
+    border: 1px black solid;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}
+a:hover {
+    background-color: #f5e3e2;
+}
+#validform {
+    padding: 8px 0px;
+    color: green;
+}
+#items {
+    padding: 8px 0px;
+    color: red;
+}
+.checkboxstyle input:checked ~ .checkmark {
+    background-color: red;
+  }
+.messagevalidation {
+    margin: 2px;
+    background-color:white;
+    opacity: 60%;
+}
+#validform {
+    padding: 8px;
+}
+#items {
+    padding: 8px;
+}
+#dataform {
+    list-style-type: none;
+    background-color: white;
+    opacity: 60%;
+}
