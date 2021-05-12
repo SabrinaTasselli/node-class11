@@ -25,6 +25,12 @@ class LoginPage extends Page {
     get showpasswordinput () { return $("#passwordcheckbox") }
     get fullnamevalidation () { return $("#fullnamevalidation")}
     get repeatpasswordvalidation () { return $("#repeatpasswordvalidation")}
+    get datafullname () { return $("#data > li:nth-child(1)") }
+    get datamail () { return $("#data > li:nth-child(2)") }
+    get datapass () { return $("#data > li:nth-child(3)") }
+    get datarepeat () { return $("#data > li:nth-child(4)") }
+    get anchorlogin () { return $("body > div > form > div.container-button > a") }
+    get reset () { return $("#reset") }
 
     /**
      * a method to encapsule automation code to interact with the page
